@@ -1,4 +1,4 @@
-package programmingTasks8.task6_CashRegister;
+package programmingTasks8.task6_7_CashRegister;
 
 import java.util.Scanner;
 
