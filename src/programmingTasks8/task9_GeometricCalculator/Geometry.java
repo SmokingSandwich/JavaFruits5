@@ -30,13 +30,14 @@ public class Geometry {
     }
 
     public void showMenu() {
-        while (true) {
+        int choose;
+        do {
             System.out.println("1) Circle area");
             System.out.println("2) Rectangle area");
             System.out.println("3) Triangle area");
             System.out.println("4) The end");
 
-            int choose = scan.nextInt();
+            choose = scan.nextInt();
 
             switch (choose) {       //Enhanced switch which doesn't require breaks
                 case 1 -> {
@@ -60,10 +61,10 @@ public class Geometry {
                 }
                 case 4 -> {
                     System.out.println("The end of the program");       //TODO the end doesn't work in a while true loop
-                    return;
+                    break;
                 }
             }
-        }
+        } while (choose != 4);
     }
 
 }

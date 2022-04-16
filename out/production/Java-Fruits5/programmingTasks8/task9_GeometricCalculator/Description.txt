@@ -1,0 +1,24 @@
+Zaprojektuj klasę Geometry zawierającą następujące metody:
+
+Statyczną metodę przyjmującą promień koła i zwracającą powierzchnię tej figury. Wykorzystaj następujący wzór:
+powierzchnia = πr2
+
+Wykorzystaj Math.PI jako π i promień koła jako r.
+
+Statyczną metodę przyjmująca długość i szerokość prostokąta oraz zwracającą powierzchnię tej figury. Posłuż się następującym wzorem:
+powierzchnia = długość × szerokość
+
+Statyczną metodę przyjmującą długość podstawy trójkąta i jego wysokość. Metoda powinna obliczać powierzchnię tej figury. Zastosuj następujący wzór:
+powierzchnia = podstawa × wysokość × 0,5
+
+Te metody powinny wyświetlać komunikat o błędzie, jeśli dla promienia koła, długości lub szerokości prostokąta albo podstawy lub wysokości trójkąta podano liczbę ujemną.
+
+W dalszej kolejności napisz program do testowania tej klasy. Powinien on wyświetlać następujące menu i reagować na wybór dokonany przez użytkownika:
+
+Kalkulator geometryczny
+1. Obliczanie powierzchni koła.
+2. Obliczanie powierzchni prostokąta.
+3. Obliczanie powierzchni trójkąta.
+4. Zakończ.
+Wprowadź wybraną opcję (1-4):
+Wyświetl komunikat o błędzie, jeśli użytkownik w menu wybierze liczbę spoza przedziału od 1 do 4.

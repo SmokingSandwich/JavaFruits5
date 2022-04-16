@@ -5,9 +5,7 @@ public class Main {
 
         Geometry geometry = new Geometry();
 
-        while (true) {
             geometry.showMenu();
-        }
 
 
 
